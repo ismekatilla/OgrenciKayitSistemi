@@ -1,6 +1,6 @@
 package org.ismek;
 
-public class Ogrenci {
+public class Ogrenci extends TemelSinif {
 
 	private int numara;
 	private String isim;
@@ -33,5 +33,11 @@ public class Ogrenci {
 	@Override
 	public String toString() {
 		return numara + " " + isim + " " + okul;
+	}
+
+	@Override
+	public int getId() {
+		// TODO Auto-generated method stub
+		return numara;
 	}
 }

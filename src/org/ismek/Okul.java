@@ -1,9 +1,16 @@
 package org.ismek;
 
-public class Okul {
+public class Okul extends TemelSinif {
 
 	private int id;
 	private String adi;
+	
+	public Okul() {}
+	
+	public Okul(int id, String adi) {
+		this.id = id;
+		this.adi = adi;
+	}
 
 	public int getId() {
 		return id;
